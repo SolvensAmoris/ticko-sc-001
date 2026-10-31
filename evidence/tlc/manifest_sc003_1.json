@@ -1,0 +1,34 @@
+{
+  "project": "TICKO-SC-003.1",
+  "tool": "TLC 2.19",
+  "parent_baseline": "d0188b3",
+  "model": "hedge-netting real Long/Short -> NetQty=Long-Short",
+  "invariants": [
+    "NET001_GrossBound",
+    "NET002_NoSimultaneousLongShort",
+    "NET003_NetRange",
+    "NET004_OtherAccountsDomain",
+    "NET005_DeterministicFunction"
+  ],
+  "limits": [
+    "sin entryPrice",
+    "sin PnL realizado",
+    "sin fees",
+    "sin asumir Cross/Isolated igual"
+  ],
+  "files": {
+    "Ticko_SC003_1_HedgeNetting.tla": {
+      "sha256": "43f8a4b71cc9bb7ea31192f8e94875726bf097fb722a1d4d096d5733c3c8b8bd",
+      "bytes": 4214
+    },
+    "Ticko_SC003_1_HedgeNetting.cfg": {
+      "sha256": "19d93c88aec13479f14dc61b21980b09998866dec981cd9afad7a6de4771f7a2",
+      "bytes": 214
+    },
+    "tlc_sc003_1_run.log": {
+      "sha256": "0aee0ab369d620694ac799dfd50c18b66043ff469e9bcbef0e19f437be58bdd1",
+      "bytes": 942
+    }
+  },
+  "timestamp_utc": "2026-10-31T23:56:13.730952+00:00"
+}

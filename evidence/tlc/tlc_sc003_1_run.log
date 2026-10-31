@@ -1,0 +1,24 @@
+TLC2 Version 2.19 of 08 August 2024 (rev: 5a47802)
+Running breadth-first search Model-Checking with fp 73 and seed 8651621764256024800 with 4 workers on 2 cores with 1696MB heap and 64MB offheap memory [pid: 9608] (Linux 4.14.116 aarch64, Ubuntu 25.0.3 x86_64, MSBDiskFPSet, DiskStateQueue).
+Parsing file /home/userland/ticko-sc-001/tla/Ticko_SC003_1_HedgeNetting.tla
+***Parse Error***
+Was expecting "==== or more Module body"
+Encountered "TRUE" at line 66, column 9 and token "0" 
+
+Residual stack trace follows:
+Module definition starting at line 1, column 1.
+
+
+Fatal errors while parsing TLA+ spec in file Ticko_SC003_1_HedgeNetting
+
+tla2sany.semantic.AbortException
+*** Abort messages: 1
+
+In module Ticko_SC003_1_HedgeNetting
+
+Could not parse module Ticko_SC003_1_HedgeNetting from file Ticko_SC003_1_HedgeNetting.tla
+
+
+Starting... (2026-10-31 23:56:13)
+Error: Parsing or semantic analysis failed.
+Finished in 01s at (2026-10-31 23:56:13)
