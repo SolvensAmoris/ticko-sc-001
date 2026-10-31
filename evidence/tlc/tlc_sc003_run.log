@@ -1,0 +1,27 @@
+TLC2 Version 2.19 of 08 August 2024 (rev: 5a47802)
+Running breadth-first search Model-Checking with fp 50 and seed -5854987206184273127 with 1 worker on 2 cores with 1696MB heap and 64MB offheap memory [pid: 6248] (Linux 4.14.116 aarch64, Ubuntu 25.0.3 x86_64, MSBDiskFPSet, DiskStateQueue).
+Parsing file /home/userland/ticko-sc-003/tla/Ticko_SC003_Liquidation.tla
+Parsing file /tmp/Naturals.tla
+Parsing file /tmp/Sequences.tla
+Parsing file /tmp/FiniteSets.tla
+Parsing file /tmp/TLC.tla
+Semantic processing of module Naturals
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module TLC
+Semantic processing of module Ticko_SC003_Liquidation
+Starting... (2026-10-31 23:45:47)
+Computing initial states...
+Computed 2 initial states...
+Computed 4 initial states...
+Computed 8 initial states...
+Computed 16 initial states...
+Finished computing initial states: 32 distinct states generated at 2026-10-31 23:45:48.
+Model checking completed. No error has been found.
+  Estimates of the probability that TLC did not check all reachable states
+  because two distinct states had the same fingerprint:
+  calculated (optimistic):  val = 1.2E-11
+84324 states generated, 2692 distinct states found, 0 states left on queue.
+The depth of the complete state graph search is 7.
+The average outdegree of the complete state graph is 0 (minimum is 0, the maximum 31 and the 95th percentile is 1).
+Finished in 04s at (2026-10-31 23:45:50)

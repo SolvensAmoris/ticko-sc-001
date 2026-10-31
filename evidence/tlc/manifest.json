@@ -1,0 +1,26 @@
+{
+  "project": "TICKO-SC-003",
+  "tool": "TLC 2.19",
+  "result": {
+    "initial": 32,
+    "generated": 84324,
+    "distinct": 2692,
+    "depth": 7,
+    "errors": 0
+  },
+  "timestamp_utc": "2026-10-31T23:47:39.447750+00:00",
+  "files": {
+    "Ticko_SC003_Liquidation.tla": {
+      "sha256": "7c1a80d33c5dbf39fe58eee0ba60f7a88f6560c13ea18e8fe9f4b230e0769439",
+      "bytes": 3550
+    },
+    "Ticko_SC003_Liquidation.cfg": {
+      "sha256": "52cbf367ff77290377d0a2dd3eddb0f91581a39bc22b0aac01575bbe391eacbc",
+      "bytes": 220
+    },
+    "tlc_sc003_run.log": {
+      "sha256": "a9697fc606b638981fce0e2b35382612567bb6f96e8d90dc680a1dbd40b4f44a",
+      "bytes": 1470
+    }
+  }
+}
