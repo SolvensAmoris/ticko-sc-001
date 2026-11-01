@@ -1,0 +1,8 @@
+=== public_tickers() ===
+code: 0
+symbol_ids: [20001, 20002, 20003, 20004, 20005] 
+sample symbol_id=20001 last=77615.0 mark=77609.7
+
+=== check_no_contagion() ===
+OK - no contagion
+CONTAGION: acctB 2 -> 1 en phase=LIQUIDATE
