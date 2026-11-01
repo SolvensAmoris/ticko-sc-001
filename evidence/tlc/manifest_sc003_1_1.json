@@ -1,0 +1,32 @@
+{
+  "project": "TICKO-SC-003.1.1",
+  "parent": "d0188b3",
+  "model": "baselinePositions photo + gross reduction |L'-S'|<=L+S + isolation",
+  "example": "BTC 5/3=8->2, ETH 2/2=4->0, SOL 1/4=5->3",
+  "invariants": [
+    "NET002_NoSimultaneousLongShort",
+    "NET003_NetRange",
+    "NET004_NetConservation L'-S'=L-S",
+    "NET005_DeterministicFunction",
+    "NET006_GrossNeverIncreases",
+    "NET006b_AbsNetEqualsGrossPost",
+    "NET007_OtherAccountsUnchanged"
+  ],
+  "limits": [
+    "sin entryPrice",
+    "sin PnL",
+    "sin fees",
+    "sin Cross/Isolated",
+    "MaxQty=3 finite"
+  ],
+  "results": {
+    "distinct_states": 393216,
+    "generated_states": 524288,
+    "depth": 3,
+    "time": "31s",
+    "violations": 0,
+    "sany": "PASS"
+  },
+  "tla_sha256": "e666a6357385d8e99b0d59488ff0392c11dc3ab1f771eaa50f6367138101f3aa",
+  "timestamp": "2026-11-01T00:20:35.998204+00:00"
+}
